@@ -187,17 +187,17 @@ body {
 @media (max-width: 1200px) {
     .cabecalho{
         padding: 10% 25% 0% 25%;
-        
+       
         
     }
     .cabecalho__menu{
         justify-content: center;
-        
+        gap: 35px;
     }
 
     .cabecalho__menu__link{
         font-family: var(--fonte-secundaria);
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         font-weight: 600;
         color: var(--cor-terciaria);
         text-decoration: none;
