@@ -208,7 +208,12 @@ body {
         padding: 5%;
     
     }
- 
+
+    .apresentacao__imagem {
+        width: 60%;
+    
+    }
+
     .apresentacao__conteudo {
         width: auto;
         padding: 0% 0% 20% 0%;
