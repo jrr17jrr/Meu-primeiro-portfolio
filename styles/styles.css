@@ -196,6 +196,7 @@ body {
 }
 
 
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
@@ -248,7 +249,7 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        font-size: 1.2rem; /* menor em dispositivos móveis */
+        padding: 10% 25% 0% 25%;
     }  
 
 }
