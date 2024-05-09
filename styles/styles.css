@@ -57,7 +57,9 @@ body {
     gap: 82px;
 }
 
-.apresentacao2{
+
+
+.apresentacao_habilidade{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,25 +73,17 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0% 0% 15% 0%;
+    padding: 0% 0% 8% 0%;
 }
 
-.apresentacao__conteudo2{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
-    padding: 25% 0% 15% 0%;
-    
 
-}
 
 .apresentacao__conteudo_projetos1{
     display: flex;
     flex-direction: column;
     
     align-items: center;
-    padding: 5% 0% 5% 0%;
+    padding: 0% 0% 8% 0%;
 
 }
 
@@ -99,6 +93,16 @@ body {
     
     align-items: center;
     padding: 5% 0% 5% 0%;
+
+}
+
+.apresentacao__conteudo_habilidade{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 0% 0% 8% 0%;
+    
 
 }
 
@@ -114,7 +118,8 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family:var(--fonte-primaria);
-    
+    padding: 5% 0% 5% 0%;
+
   
 }
 
