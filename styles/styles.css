@@ -256,7 +256,7 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        font-size: 0.2rem;; /* Tamanho de fonte menor para dispositivos menores */
+        font-size: 1.2rem;; /* Tamanho de fonte menor para dispositivos menores */
     }  
 
 }
