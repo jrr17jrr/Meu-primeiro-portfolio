@@ -251,7 +251,7 @@ body {
     }
     .cabecalho__menu{
         justify-content: center;
-        gap: 35px;
+        gap: 25px;
     }
 
     .cabecalho__menu__link{
