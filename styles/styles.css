@@ -96,6 +96,12 @@ body {
     font-size: 2.25rem;
     font-family:var(--fonte-primaria);
     width: 0;
+}
+
+.apresentacao__conteudo__titulo1{
+    font-size: 2.25rem;
+    font-family:var(--fonte-primaria);
+    width: 0;
     overflow: hidden; /* Esconde o texto que transborda o container */
     white-space: nowrap; /* Impede a quebra de linha */
     border-right: .05em solid; /* Simula o cursor de digitação */
