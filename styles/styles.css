@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0% 0% 20% 0%;
+    padding: 0% 0% 15% 0%;
 }
 
 .apresentacao__conteudo2{
@@ -79,7 +79,7 @@ body {
     flex-direction: column;
     gap: 50px;
     align-items: center;
-    padding: 25% 0% 0% 0%;
+    padding: 25% 0% 15% 0%;
     
 
 }
@@ -272,21 +272,21 @@ body {
     
     .apresentacao__conteudo {
         width: auto;
-        padding: 0% 0% 20% 0%;
+        padding: 0% 0% 15% 0%;
         justify-content: center;
         
     }
 
     .apresentacao__conteudo_projetos1 {
         width: auto;
-        padding: 0% 0% 20% 0%;
+        padding: 0% 0% 15% 0%;
         justify-content: center;
         
     }
 
     .apresentacao__conteudo_projetos2 {
         width: auto;
-        padding: 0% 0% 20% 0%;
+        padding: 0% 0% 15% 0%;
         justify-content: center;
         
     }
