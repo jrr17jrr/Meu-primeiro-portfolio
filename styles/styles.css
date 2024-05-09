@@ -103,7 +103,7 @@ body {
     font-family:var(--fonte-primaria);
     width: 0;
     overflow: hidden; /* Esconde o texto que transborda o container */
-   
+    white-space: nowrap; /* Impede a quebra de linha */
     border-right: .05em solid; /* Simula o cursor de digitação */
    
     animation: typing 10s steps(50, end) infinite;
@@ -249,7 +249,7 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        align-items: center;
+        animation: none; /* Desativa a animação */
 
     }  
 
