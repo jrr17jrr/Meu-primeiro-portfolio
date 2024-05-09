@@ -172,7 +172,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 25%;
+    width: 45%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -216,7 +216,7 @@ body {
 }
 
 .apresentacao__imagem_projetos {
-    width: 25%;
+    width: 45%;
 
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
@@ -291,6 +291,14 @@ body {
         
     }
  
+    .apresentacao__imagem_projetos {
+        width: 45%;
+    }
+
+    .apresentacao__links__navegacao_projetos {
+        width: 45%; 
+    }
+
     .apresentacao__conteudo__titulo{
         justify-content: center;
         align-items: center;
