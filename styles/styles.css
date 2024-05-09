@@ -261,10 +261,10 @@ body {
         width: 0;
         justify-content: center;
         align-items: center;
-        overflow: hidden; /* Esconde o texto que transborda o container */
-        white-space: nowrap; /* Impede a quebra de linha */
-        border-right: .05em solid; /* Simula o cursor de digitação */
-        animation: typing 10s steps(50, end) infinite;
+        overflow:none;
+        white-space:none;
+        border-right:none;
+        animation:none;
     }  
 
 }
