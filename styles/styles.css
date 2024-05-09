@@ -64,24 +64,41 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0% 0% 0% 0%
+    padding: 8% 0% 8% 0%
 }
 
 .apresentacao__conteudo {
     
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 0% 0% 8% 0%;
 }
 
+.apresentacao__titulo_projetos1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 0% 0% 8% 0%;
 
+}
 
 .apresentacao__conteudo_projetos1{
     display: flex;
     flex-direction: column;
     
+    align-items: center;
+    padding: 0% 0% 2% 0%;
+
+}
+
+.apresentacao__conteudo_sobre_mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0% 0% 8% 0%;
 
@@ -143,14 +160,12 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-    
 }
 
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5;
-    
 }
 
 .apresentacao__links__navegacao {
@@ -158,7 +173,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -167,9 +182,9 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
-    
-    
 }
+
+
 
 
 .apresentacao__links__navegacao_projetos {
@@ -306,6 +321,7 @@ body {
     .apresentacao__conteudo__titulo{
         justify-content: center;
         align-items: center;
+         
     }
 
 }
