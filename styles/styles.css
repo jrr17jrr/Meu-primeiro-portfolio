@@ -256,7 +256,7 @@ body {
 
     .cabecalho__menu__link{
         font-family: var(--fonte-secundaria);
-        width: 50%;
+        width: 60%;
         font-size: 1rem;
         font-weight: 600;
         color: var(--cor-terciaria);
