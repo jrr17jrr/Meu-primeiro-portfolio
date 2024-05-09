@@ -100,7 +100,7 @@ body {
     flex-direction: column;
     
     align-items: center;
-    padding: 0% 0% 2% 0%;
+    padding: 5% 0% 5% 0%;
 
 }
 
@@ -249,6 +249,17 @@ body {
     background-color:var(--cor-hover)
 }
 
+.imagens_habilidades{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens passem para a próxima linha */
+    padding: 10px;
+
+}
+.image{
+    flex: 1 1 50%; /* Cresce para preencher o espaço, mas não mais que 50% da linha */
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding no cálculo de largura */
+}
 .apresentacao__imagem {
     width: 40%;
 
@@ -280,6 +291,11 @@ body {
     width: 25px; 
     height: auto;  
     
+}
+
+.borda_azul{
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
 }
 
 .rodape{
@@ -343,14 +359,14 @@ body {
         width: auto;
         padding: 0% 0% 15% 0%;
         justify-content: center;
-        
+        text-align: center;
     }
 
     .apresentacao__conteudo_projetos2 {
         width: auto;
         padding: 0% 0% 15% 0%;
         justify-content: center;
-        
+        text-align: center;
     }
  
     .apresentacao__conteudo_sobre_mim {
