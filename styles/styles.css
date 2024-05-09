@@ -249,7 +249,11 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        animation: none; /* Desativa a animação */
+        animation: none;
+        border-right: none; /* Remove o cursor simulado */
+        overflow: visible; /* Garante que todo o texto seja visível */
+        white-space: normal; /* Permite que o texto envolva conforme necessário */
+        width: auto; /* Retorna a largura para o comportamento padrão */
         color: red;
 
     }  
