@@ -195,14 +195,6 @@ body {
     font-weight: 400;
 }
 
-.typing {
-    width: 0;
-    overflow: hidden; /* Esconde o texto que transborda o container */
-    white-space: nowrap; /* Impede a quebra de linha */
-    border-right: .05em solid; /* Simula o cursor de digitação */
-    font-family: monospace; /* Fonte estilo máquina de escrever */
-    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
-}
 
 @keyframes typing {
     from { width: 0 }
@@ -256,7 +248,7 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        font-size: 5%; /* Tamanho de fonte menor para dispositivos menores */
+        font-size: 1.2rem; /* menor em dispositivos móveis */
     }  
 
 }
