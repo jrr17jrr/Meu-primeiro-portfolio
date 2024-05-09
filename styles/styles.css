@@ -256,7 +256,7 @@ body {
 
     .cabecalho__menu__link{
         font-family: var(--fonte-secundaria);
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
         color: var(--cor-terciaria);
         text-decoration: none;
@@ -273,8 +273,6 @@ body {
     
     }
 
-
-    
     .apresentacao__conteudo {
         width: auto;
         padding: 0% 0% 15% 0%;
