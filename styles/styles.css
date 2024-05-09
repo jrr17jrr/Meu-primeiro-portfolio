@@ -114,7 +114,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family:var(--fonte-primaria);
-
+    
   
 }
 
@@ -274,6 +274,14 @@ body {
         justify-content: center;
         
     }
+
+
+    .apresentacao__conteudo_projetos {
+        width: auto;
+        padding: 0% 0% 20% 0%;
+        justify-content: center;
+    }    
+
     .apresentacao__conteudo__titulo{
         justify-content: center;
         align-items: center;
