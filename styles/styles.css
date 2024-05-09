@@ -29,12 +29,17 @@ body {
     justify-content: center;
     padding: 2% 0% 5% 0%;
     gap: 50px;
+    align-items: center;
+    
+    
 }
 .cabecalho__menu{
     display: flex;
     gap: 80px;
     align-items: center;
+   justify-content: center;
    
+ 
 }
 
 .cabecalho__menu__link{
@@ -43,10 +48,14 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    text-align: center;
 }
 
+
+
 .cabecalho__menu__link:hover{
-    background-color: var(--cor-hover)
+    background-color: var(--cor-hover);
+
     }
 
 .apresentacao {
@@ -196,11 +205,12 @@ body {
 .apresentacao__links__navegacao_projetos {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     gap: 16px;
-    border: 2px solid var(--cor-terciaria);
+    
     width: 45%;
     text-align: center;
-    border-radius: 8px;
+    
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -211,7 +221,25 @@ body {
     
 }
 
-.apresentacao__links__navegacao_projetos:hover {
+.botao_projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+}
+
+
+.botao_projetos:hover {
     
     background-color:var(--cor-hover)
 }
