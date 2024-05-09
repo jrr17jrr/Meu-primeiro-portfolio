@@ -118,7 +118,7 @@ body {
     flex-direction: column;
     gap: 50px;
     align-items: center;
-    padding: 0% 0% 8% 0%;
+    padding: 0% 0% 5% 0%;
     
 
 }
@@ -138,6 +138,12 @@ body {
     padding: 5% 0% 5% 0%;
 
   
+}
+
+.apresentacao____titulo_sobre_mim{
+    font-size: 2.25rem;
+    font-family:var(--fonte-primaria);
+    padding: 5% 0% 10% 0%;
 }
 
 
@@ -280,9 +286,16 @@ body {
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 0%;
     
     }
+
+    .apresentacao_projetos{
+        flex-direction: column-reverse;
+        padding: 15% 0% 15% 0%;
+    
+    }
+
 
     .apresentacao__imagem {
         width: 60%;
@@ -295,6 +308,8 @@ body {
         justify-content: center;
         
     }
+
+    
 
     .apresentacao__conteudo_projetos1 {
         width: auto;
@@ -310,6 +325,13 @@ body {
         
     }
  
+    .apresentacao__conteudo_sobre_mim {
+        width: auto;
+        padding: 0% 0% 20% 0%;
+        justify-content: center;
+        
+    }
+
     .apresentacao__imagem_projetos {
         width: 60%;
     }
