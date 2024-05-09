@@ -263,7 +263,7 @@ body {
         justify-content: center;
         align-items: center;
         overflow: hidden; /* Esconde o texto que transborda o container */
-        white-space: nowrap; /* Impede a quebra de linha */
+      
         border-right: .05em solid; /* Simula o cursor de digitação */
        
 
