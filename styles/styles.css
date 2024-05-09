@@ -263,6 +263,12 @@ body {
     
     }
 
+    .apresentacao_projetos{
+        
+        width: 60%;
+    
+    }
+
     .apresentacao__imagem {
         width: 60%;
     
@@ -281,11 +287,6 @@ body {
     }
 
 
-    .apresentacao__conteudo_projetos {
-        width: auto;
-        padding: 0% 0% 20% 0%;
-        justify-content: center;
-    }    
 
     .apresentacao__conteudo__titulo{
         justify-content: center;
