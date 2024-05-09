@@ -256,9 +256,12 @@ body {
     }
 
     .apresentacao__conteudo__titulo1{
-        font-size: 1.0rem;
+        font-size: 2.25rem;
         font-family:var(--fonte-primaria);
         width: 0;
+        padding: ;
+        justify-content: center;
+        align-items: center;
         overflow: hidden; /* Esconde o texto que transborda o container */
         white-space: nowrap; /* Impede a quebra de linha */
         border-right: .05em solid; /* Simula o cursor de digitação */
