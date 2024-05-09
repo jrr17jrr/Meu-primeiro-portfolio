@@ -95,18 +95,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family:var(--fonte-primaria);
-    width: 0;
-}
-
-.apresentacao__conteudo__titulo1{
-    font-size: 2.25rem;
-    font-family:var(--fonte-primaria);
-    width: 0;
-    overflow: hidden; /* Esconde o texto que transborda o container */
-    white-space: nowrap; /* Impede a quebra de linha */
-    border-right: .05em solid; /* Simula o cursor de digitação */
-   
-    animation: typing 10s steps(50, end) infinite;
+  
 }
 
 
@@ -195,18 +184,6 @@ body {
     font-weight: 400;
 }
 
-
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--cor-hover)}
-}
-
 @media (max-width: 1200px) {
     .cabecalho{
         padding: 10% 25% 0% 25%;
@@ -247,16 +224,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    .apresentacao__conteudo__titulo1{
-        animation: none;
-        border-right: none; /* Remove o cursor simulado */
-        overflow: visible; /* Garante que todo o texto seja visível */
-        white-space: normal; /* Permite que o texto envolva conforme necessário */
-        width: auto; /* Retorna a largura para o comportamento padrão */
-        color: red;
-
-    }  
 
 }
 
