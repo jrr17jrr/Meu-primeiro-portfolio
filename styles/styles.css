@@ -397,7 +397,7 @@ body {
         border-radius: 8px;
         font-size: 1.2rem;
         font-weight: 600;
-        padding: 21.5px 0;
+        padding: 21.5px 5;
         text-decoration: none;
         color: var(--cor-secundaria);
         font-family: var(--font-secundaria);
