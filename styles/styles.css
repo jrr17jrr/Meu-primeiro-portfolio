@@ -358,13 +358,7 @@ body {
         text-align: center;
     }
 
-    .apresentacao__conteudo_projetos2 {
-        width: auto;
-        padding: 0% 0% 15% 0%;
-        justify-content: center;
-        text-align: center;
-    }
- 
+   
     .apresentacao__conteudo_sobre_mim {
         width: auto;
         padding: 0% 0% 20% 0%;
@@ -406,4 +400,15 @@ body {
 
 }
 
+@media screen and (max-width:768px) {
 
+    .apresentacao__conteudo__texto{
+        margin: 0 3em;
+    }
+
+    .apresentacao__conteudo__titulo{
+        
+        text-align: center;
+    }
+    
+}
