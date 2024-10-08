@@ -86,12 +86,13 @@ body {
     padding: 0% 0% 8% 0%;
 }
 
-.apresentacao__titulo_projetos1{
+.apresentacao__titulo_projetos{
     display: flex;
     flex-direction: column;
     
     align-items: center;
-    padding: 0% 0% 8% 0%;
+    padding: 0 0 0 0;
+    margin: 0;
 
 }
 
